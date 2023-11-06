@@ -1,0 +1,51 @@
+body {
+    background-color: #fff3b0;
+    color: #335c67;
+}
+
+/* buttons */
+#myBtn {
+    padding: 10px 60px;
+    background-color: #e09f3e;
+    color: #335c67;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+
+}
+
+#content, #name  {
+    color: #540b0e;
+}
+
+#content {
+    text-align: center;
+    font-size: 20px;
+}
+
+#name {
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+/* The below code is to center everything in the middle */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    display: table;
+}
+
+.my-block {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
